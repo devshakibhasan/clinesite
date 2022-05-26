@@ -351,7 +351,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Running electronic Server');
+    res.send('Running manufecture Server');
 });
 
 app.get('/hero', (req, res) => {
